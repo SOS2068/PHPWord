@@ -123,7 +123,8 @@
 				if($chapterResult["code_kind"] == "chapter"){
 					if($chapterResult["code_kind"] != $d){
 						$section->addText($chapterResult["Chapter"]);
-						$section->addText($chapterResult["preferred_description"]." "."(".($chapterResult["BlockRange"].")"));
+						$section->addText($chapterResult["preferred_description"]);
+						$section->addText("(".($chapterResult["BlockRange"].")"));
 					}
 				}
 				elseif($chapterResult["code_kind"] == "blockStatement"){
