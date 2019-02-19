@@ -1,6 +1,5 @@
 <?php
 	require_once 'PHPWord.php';
-
 	// New Word Document
 	$PHPWord = new PHPWord();
 
